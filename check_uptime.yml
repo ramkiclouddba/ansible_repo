@@ -1,5 +1,5 @@
 ---
-- name: Check uptime on remote server
+- name: Check uptime on remote server on each server
   hosts: all
   gather_facts: no
   tasks:
